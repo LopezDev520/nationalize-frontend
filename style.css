@@ -104,3 +104,7 @@ html, body {
   font-size: 10px;
   color: gray;
 }
+
+footer {
+  margin-top: 25px;
+}
