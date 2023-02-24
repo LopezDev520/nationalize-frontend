@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html, body {
+  padding-top: 60px;
+
+  font-family: 'Rubik';
+  
+  background-color: #1b1b32;
+  color: white;
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  margin: 5px;
+  padding: 20px;
+  background-color: #121212;
+  border-radius: 15px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 5px 3px 10px black;
+}
+
+.form-container input {
+  font-family: 'Rubik';
+  background-color: #121212;
+  color: white;
+  padding: 3px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.form-container input:focus {
+  border: 1px solid white;
+}
+
+.form-container button {
+  font-family: 'Rubik';
+  border: 1px solid gray;
+  background-color: #d41ae5;
+  border-radius: 15px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #e603fb;
+}
+
+.form-container button:active {
+  border: 1px solid white;
+}
+
+#result {
+  background-color: #2c222d;
+  border-radius: 15px;
+
+  margin-top: 15px;
+  box-shadow: 5px 3px 10px black;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px;
+}
+
+.countryResult {
+  background-color: #87b734;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.countryResult p {
+  text-align: center;
+}
+
+.country-flag {
+  font-size: 50px;
+}
+
+.country-name {
+  font-size: 15px;
+}
+
+.country-code {
+  font-size: 10px;
+  color: gray;
+}
