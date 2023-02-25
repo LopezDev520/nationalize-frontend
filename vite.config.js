@@ -1,6 +1,4 @@
 import { defineConfig } from "vite"
 export default defineConfig({
-  build: {
-    assetsDir: "./nationalize-frontend"
-  }
+  base: "https://lopezitodev.github.io/nationalize-frontend",
 })
